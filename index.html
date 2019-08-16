@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survery Form</title>
+</head>
+
+<body>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Kindly fill this form</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input id="name" type="text" required placeholder="Enter your name"><br>
+        <label for="name" id="email-label">Email</label>
+        <input id="email" type="email" required placeholder="Enter your email"><br>
+        <label for="name" id="number-label">Number</label>
+        <input id="number" type="number" min="2" max="7" required placeholder="Enter your number"><br>
+        <select id="dropdown">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select><br>
+        Are you a programmer?<br>
+        <label for="yes">
+            <input id="yes" type="radio" value="yes" name="programmercheck">Yes
+        </label>
+        <label for="no">
+            <input id="no" type="radio" value="no" name="programmercheck">No
+        </label>
+        <label for="not sure">
+            <input id="not sure" type="radio" value="notsure" name="programmercheck">Not sure
+        </label><br>
+
+        Check:<br>
+        <label><input type="checkbox" value="web">Web</label><br>
+        <label><input type="checkbox" value="c">C++</label><br>
+        <label><input type="checkbox" value="java">Java</label><br>
+
+        Enter some text here: <br>
+        <textarea rows="4" cols="50" placeholder="Enter text here">
+                
+        </textarea><br>
+
+        <button id="submit" type="submit">Submit</button>
+        
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    </form>
+</body>
+
+</html>
